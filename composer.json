@@ -1,0 +1,20 @@
+{
+    "name": "l-code/database-migrator",
+    "description": "A DATABASE MIGRATOR ME",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "LCode\\DatabaseMigrator\\": "src/",
+            "src\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "L-CODE"
+        }
+    ],
+    "require": {
+        "ext-pdo": "*"
+    }
+}
